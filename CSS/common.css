@@ -10,6 +10,7 @@ body{
 :root{
     --common-color: #d19c97;
     --border: 1px solid #ddd;
+    --btn-border:1px soild #d19c97;
 }
 html{
     scroll-behavior: smooth;
@@ -80,4 +81,21 @@ html{
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 15px;
+}
+/*  */
+.container4{
+    display: flex;
+    justify-content:space-between;
+    gap:15px;
+    margin:0 5%;
+}
+.flip-img{
+    transform: scaleX(-1);
+}
+/*  */
+.container5{
+    display: flex;
+    gap:15px;
+    margin: 0 5%;
+    flex-wrap:wrap;
 }
